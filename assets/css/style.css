@@ -100,7 +100,13 @@ h1 {
 img {
     float: left;
     margin: 0px 20px 10px 0px;
-    height: 400px width:300px
+    height: 400px;
+    width: 300px;
+}
+
+#profpic {
+    height: 400px;
+    width: 300px;
 }
 
 .PortArea {
@@ -659,61 +665,58 @@ body {
         top: 0;
         left: -191px;
         width: 2600px;
-        height:106px;
+        height: 106px;
         position: fixed;
         z-index: 1;
     }
 
     #MyName {
-    float: left;
-    background-color: #4aaaa5;
-    color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left:134px;
-    font-size: 150%;
-    font-family: 'Lobster', cursive;
-    padding:15px;
-    width:640px;
-
-}
-    
-    /*Portfolio2*/
-    #NavG1{
-        float:left;
-        padding:10px;
-        left:225px;
-        top:45px;
-        position:fixed;
+        float: left;
+        background-color: #4aaaa5;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 134px;
         font-size: 150%;
+        font-family: 'Lobster', cursive;
+        padding: 15px;
+        width: 640px;
     }
 
-
-/*About3*/
-    #NavG2{
-        float:left;
-        padding:10px;
-        left:325px;
-        top:45px;
-        position:fixed;
+    /*Portfolio2*/
+    #NavG1 {
+        float: left;
+        padding: 10px;
+        left: 225px;
+        top: 45px;
+        position: fixed;
+        font-size: 150%;
+    }
+    /*About3*/
+    #NavG2 {
+        float: left;
+        padding: 10px;
+        left: 325px;
+        top: 45px;
+        position: fixed;
         font-size: 150%;
     }
 
     /*Contact1*/
     #NavG3 {
-        float:left;
-        padding:10px;
-        left:125px;
-        top:45px;
-        position:fixed;
+        float: left;
+        padding: 10px;
+        left: 125px;
+        top: 45px;
+        position: fixed;
         font-size: 150%;
     }
 
 
 
-    .rightnav{
-        margin-left:100px;
-        padding:1px;
+    .rightnav {
+        margin-left: 100px;
+        padding: 1px;
     }
 
     #name,
