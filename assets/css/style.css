@@ -463,6 +463,79 @@ body {
     width: 600px;
 }
 
+@media only screen and (max-width: 1936px) {
+
+    html,
+    body {
+        height: 100%;
+        margin-left: -6%;
+        margin-right: 15%;
+        width: 960px;
+    }
+
+    .Container {
+        width: 555px;
+        height: 865px;
+        background-color: white;
+        margin-top: 148px;
+        margin-left: 70%;
+        margin-right: 25%;
+        padding: 30px;
+    }
+
+    .aside {
+        width: 305px;
+        height: 200px;
+        float: left;
+        margin-top: 40px;
+        margin-left: 2px;
+        text-align: center;
+        background-color: white;
+        font-weight: bold;
+        font-size: 30px;
+        color: #4aaaa5;
+        padding: 30px;
+        position: fixed;
+        left: 1230px;
+        top: 109px;
+    }
+
+    .topnav {
+        background-color: #ffffff;
+        overflow: hidden;
+        border: 1px solid grey left: 0;
+        top: 0;
+        left: -191px;
+        width: 2600px;
+        position: fixed;
+        z-index: 1;
+    }
+    #NavG2 {
+        float: right;
+        color: grey;
+        margin-right: 230px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 30px;
+        font-size: 200%;
+        font-family: 'Lobster', cursive;
+    }
+
+    #name,
+    #Email {
+        width: 356px;
+    }
+
+    #Message {
+        height: 600px;
+        width: 356px;
+    }
+
+    .PortfolioImages2 {
+        float: left;
+    }
+}
+
 @media only screen and (max-width: 980px) {
 
     html,
